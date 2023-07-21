@@ -75,17 +75,12 @@
 ## Set Up the Manager For the Original User (Duration: 3 minutes)
 - For the approval process to work properly, you must assign the new user as your manager. Complete the following steps:
 1. Click the avatar in the upper right corner of the screen (it’s an image of a Salesforce mascot) and select the Settings link.
-<insert image>
-
+![User Settings Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Avatar%20Dropdown%20-%20Settings.png)
 2. Once on the new tab, from the pane on the left of the screen, click Advanced User Details.
-<insert image>
-
+![Advanced User Details Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Settings%20-%20Advanced%20User%20Details.png)
 3. Click the Edit button at the top of the screen.
-<insert image>
-
+![User Edit Button](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Advanced%20User%20Details%20-%20Edit%20Button.png)
 4. Scroll down to the Manager field in the Approver Settings section at the bottom of the screen and click the magnifying glass icon.
-<insert image>
-
+![User Approver Settings](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Advanced%20User%20Details%20-%20Approver%20Settings.png)
 5. Search for and select the second user that you created.
-
 6. Click the Save button at the bottom of the screen.
