@@ -92,3 +92,12 @@
 --- | --- | --- | ---
 **Travel Request** | Yes | Yes | Yes
 **Travel App** | No | Yes | Yes
+- Complete the following steps to install the metadata (i.e. objects, fields, etc.) for the Travel Request app in your Salesforce instance.
+1. Open a new browser window, paste the following URL, and select Enter.
+	- https://login.salesforce.com/packaging/installPackage.apexp?p0=04tHr000001VfFIIA0
+2. Log into Salesforce with your username and password.
+3. Select the Install for All Users radio button. Click the Advanced Options dropdown and select the Compile Only the Apex in the Package radio button, and then click the Install button.
+![Install Travel App Modal](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Install%20Travel%20Apps%20Modal.png)
+4. The package will begin installing, which should take approximately 1-3 minutes. You will receive an on-screen confirmation and an email when the package has successfully installed. 
+5. If installation is taking longer, perhaps due to limited bandwidth, your on-screen notification will reflect this. This is normal.
+![Taking Long to Install Modal](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Install%20Travel%20Apps%20-%20Long%20Installation%20Screen.png)
