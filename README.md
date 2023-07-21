@@ -84,3 +84,11 @@
 ![User Approver Settings](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Advanced%20User%20Details%20-%20Approver%20Settings.png)
 5. Search for and select the second user that you created.
 6. Click the Save button at the bottom of the screen.
+## Install App Metadata (Duration: 5 minutes)
+- The following unlocked package includes two separate travel apps, “Travel Request” and “Travel App”. Please feel free to explore both apps. This Read Me file focuses on configuring the Travel Request app ONLY, as the Travel App does not require any configuration. The Travel App is based on the following Trailhead trail (link).
+- To review the differences between the two apps, please refer to the table below:
+
+**Apps** | **OmniStudio** | **Approval Processes** | **Flow Automation**
+--- | --- | --- | ---
+**Travel Request** | Yes | Yes | Yes
+**Travel App** | No | Yes | Yes
