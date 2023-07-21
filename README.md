@@ -62,3 +62,30 @@
 9. Select the Checkbox for “I have read and agree to the terms and conditions” and click on the Confirm and Install button.
 ![Select Checkbox for App Terms](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/AppExchange%20Clone%20This%20User%20Terms%20Modal.png)
 10. Click the Install for All Users radio button and then click the Install button. 
+![Clone This User Install Wizard](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/AppExchange%20Clone%20This%20User%20Install%20Modal.png)
+11. You may receive a message saying that the application is taking too long to install. This is normal. Once the installation is complete you will receive an email saying that it has been installed successfully. 
+12. Once installed, access the Salesforce org, click on the App Launcher, and type “Clone” in the search box. Select “Clone this User” to open the application.
+
+	![App Launcher App Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/App%20Launcher%20-%20Clone%20This%20User.png)
+
+13. Type your first name into the search box and then select your user to be cloned.
+![Clone This User, User Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Clone%20This%20User%20-%20User%20Selection.png)
+14. Enter the new user information and click the save button. It’s recommended to use your email address for the new user so that you’ll receive the user verification email. Remember that all usernames must be unique. As an example, you can use the following nomenclature for the cloned user’s username: <firstname>.<last name>.@travelrequestapp.org.
+![Clone This User, User Creation](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Clone%20This%20User%20-%20New%20User.png)
+## Set Up the Manager For the Original User (Duration: 3 minutes)
+- For the approval process to work properly, you must assign the new user as your manager. Complete the following steps:
+1. Click the avatar in the upper right corner of the screen (it’s an image of a Salesforce mascot) and select the Settings link.
+<insert image>
+
+2. Once on the new tab, from the pane on the left of the screen, click Advanced User Details.
+<insert image>
+
+3. Click the Edit button at the top of the screen.
+<insert image>
+
+4. Scroll down to the Manager field in the Approver Settings section at the bottom of the screen and click the magnifying glass icon.
+<insert image>
+
+5. Search for and select the second user that you created.
+
+6. Click the Save button at the bottom of the screen.
