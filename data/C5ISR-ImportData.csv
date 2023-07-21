@@ -1,0 +1,15 @@
+Changes During Trip,Departure Date,Detained or Arrested,Foreign National Contact Request,Lose Materials,Name,Notes,Probing Inquiries,Problems Encountered,Return Date,Status,Subjected to Harassment,Travel Restrictions,Victim of Criminal Act,Travel Justification
+TRUE,2023-02-12,FALSE,FALSE,FALSE,Heroku - 2/12/2023,Pickpocketed.,FALSE,TRUE,2023-02-18,Questionnaire Complete,FALSE,FALSE,FALSE,Justification C
+FALSE,2023-05-23,FALSE,FALSE,FALSE,Walling - 5/23/2023,Minor injury sustained.,FALSE,FALSE,2023-05-31,Awaiting Mission Approval,FALSE,FALSE,FALSE,Justification B
+FALSE,2023-04-12,FALSE,FALSE,FALSE,Vance - 4/12/2023,Nothing significant to report.,FALSE,FALSE,2023-04-15,Completed,FALSE,FALSE,FALSE,Justification
+FALSE,2023-07-01,FALSE,FALSE,FALSE,Muley - 7/1/2023,Lost wallet and ID card.,FALSE,FALSE,2023-07-27,New,FALSE,FALSE,FALSE,Justification
+FALSE,2023-06-14,FALSE,FALSE,FALSE,Peterson - 6/14/2023,Needed to contact embassy for support.,FALSE,FALSE,2023-06-20,Fully Approved,FALSE,FALSE,FALSE,Justification
+FALSE,2023-02-14,FALSE,FALSE,FALSE,Gelson - 2/14/2023,Nothing significant to report.,FALSE,FALSE,2023-02-27,Questionnaire Complete,FALSE,FALSE,FALSE,Justification
+FALSE,2023-04-12,FALSE,TRUE,FALSE,Stults - 4/12/2023,Pickpocketed.,FALSE,TRUE,2023-04-12,SSO Approval,FALSE,TRUE,FALSE,Justification
+FALSE,2023-04-12,FALSE,FALSE,FALSE,Stults - 4/8/2023,Nothing significant to report.,FALSE,FALSE,2023-04-12,New,FALSE,FALSE,FALSE,Justification
+TRUE,2023-02-04,FALSE,FALSE,FALSE,Singleton - 5/5/2023,Met a foreign national,FALSE,FALSE,2023-02-12,Draft,TRUE,FALSE,FALSE,Justification
+FALSE,2023-02-02,FALSE,FALSE,FALSE,Galtz - 4/29/2023,Nothing significant to report.,TRUE,TRUE,2023-02-12,Draft,FALSE,FALSE,FALSE,Justification
+FALSE,2023-03-03,FALSE,FALSE,FALSE,Johnson - 7/14/2023,Minor injury sustained.,FALSE,FALSE,2023-03-11,Draft,FALSE,FALSE,FALSE,Justification
+FALSE,2023-04-29,FALSE,FALSE,FALSE,Smith - 4/29/2023,Encountered foreign intelligence agent.,FALSE,FALSE,2023-05-17,New,FALSE,FALSE,FALSE,Justification A
+FALSE,2023-06-01,FALSE,FALSE,FALSE,Nelson - 6/1/2023,Nothing significant to report.,FALSE,FALSE,2023-06-07,Mission Approved,FALSE,FALSE,FALSE,Justification
+FALSE,2023-07-12,FALSE,FALSE,FALSE,Smith - 7/12/2023,Nothing significant to report.,FALSE,FALSE,2023-07-21,Mission Approved,FALSE,FALSE,FALSE,Justification
