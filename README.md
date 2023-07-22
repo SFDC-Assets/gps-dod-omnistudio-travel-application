@@ -199,4 +199,18 @@
 ![Travel Record, Back Button](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Back%20Button.png)
 15. Test both FlexCards (on the Home page and the Travel Request record page) by selecting them and completing the guided steps.
 
-**SET UP IS COMPLETE. ENJOY EXPLORING THE TRAVEL REQUEST APPLICATION.**
+**✅ SET UP IS COMPLETE. ENJOY EXPLORING THE TRAVEL REQUEST APPLICATION.**
+# Application Use
+1. From the perspective of the Traveler, clicking the Foreign Travel Request button on the Travel Request app home page creates a new travel request record that is automatically entered into an approval process. Upon completing the steps in the wizard, the user is redirected to the new Travel Request record.
+![Foreign Travel Request Wizard](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Home%20Page%20-%20Foriegn%20Travel%20Request.png)
+2. From the perspective of the Manager, the Travel Request record details can be reviewed and the request approved or rejected from the Approval History list on the Related Records tab.
+![]()
+3. Once approved, the Post Foreign Travel Questionnaire button is conditionally visible, enabling the Traveler to click on it and fill out a post-trip travel form.
+![]()
+![]()
+4. Completion of the form updates the Foreign Travel After Action section of the Travel Request record.
+![]()
+# Maintainer
+- David Nava, Lead Solution Engineer at Salesforce, dnava@salesforce.com
+# Current Version
+- 1.2
