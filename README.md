@@ -22,7 +22,7 @@
 	- Click on the warnings button at the top of the screen.
 	  ![FlexCard Warning Button](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/FlexCard%20Warnings%20Button.png)
    	- Copy the following two URLs from the dialog box shown: 
-		- https://{your domain}/.na225.visual.force.com
+		- https://{your domain}/.{your instance}.visual.force.com
 		- https://{your domain}.lightning.force.com
   
   		![FlexCard Warnings Modal](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/FlexCard%20Warnings%20Modal.png)
@@ -35,11 +35,11 @@
 		![New Remote Site Button](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/New%20Remote%20Site%20Button.png)
 	- Add a new remote site.
 		- Remote Site Name: EnableLWC
-		- Remote Site URL: Copy the url ending in lightning.force.com from the warnings dialog box (e.g. https://appinaday2-pss-mar2023..lightning.force.com)
+		- Remote Site URL: Copy the url ending in lightning.force.com from the warnings dialog box
 		- Click the Save and New button.
 	- Add another remote site.
 		- Remote Site Name: EnableLWCVisual
-		- Remote Site URL: Copy the url ending in visual.force.com from the warnings dialog box (e.g. https://appinaday2-pss-mar2023-omnistudio.na225.visual.force.com)
+		- Remote Site URL: Copy the url ending in visual.force.com from the warnings dialog box
 		- Click save.
 	- When complete, the remote site settings page should look like this:
 	![Remote Site Settings List View](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Remote%20Site%20Settings%20List.png)
