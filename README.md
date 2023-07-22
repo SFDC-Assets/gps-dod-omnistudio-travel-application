@@ -138,6 +138,65 @@
 7. Click the Next button.
 8. The metadata from the spreadsheet has already been mapped to the metadata in the Salesforce org, as shown below. Click the Next button.
 ![Edit Mapping Screen](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Data%20Import%20Wizard%20-%20Edit%20Mapping%20Screen.png)
-10. Click the Start Import button.
+9. Click the Start Import button.
 ![Start Import Screen](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Data%20Import%20Wizard%20-%20Start%20Import%20Screen.png)
-11. Click OK on the confirmation screen. You’ll be redirected to the Bulk Data Load Jobs page where you can monitor the import progress. You’ll receive an email when the job is complete.
+10. Click OK on the confirmation screen. You’ll be redirected to the Bulk Data Load Jobs page where you can monitor the import progress. You’ll receive an email when the job is complete.
+## Install OmniStudio Metadata (Duration: 20 minutes)
+- Complete the following steps to install the metadata for OmniStudio guided user experiences and process automations.
+### Download the OmniStudio Files
+1. From the GitHub repository, access the json folder and download the “Omni Processes Multipack.json” and “OmniStudio FlexCard Multipack.json” files to your computer.
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/GitHub%20-%20Download%20JSON%20Files%20-%201.png)
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/GitHub%20-%20Download%20JSON%20Files%20-%202.png)
+### Import the OmniScripts
+1. Select OmniStudio from the Application Launcher.
+![App Launcher Omnistudio Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/App%20Launcher%20-%20Omnistudio%20App.png)
+2. Select OmniScripts from the OmniStudio app menu.
+![Console Menu Omniscripts Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Console%20Menu%20-%20OmniScripts.png)
+3. Click the Import button, when prompted either drag the Omni Processes Multipack.json or select it by clicking on the browse button. Click the Next button.
+4. On the Select Items to Import screen accept the defaults, and click the Next button.
+5. On the Review Items to Import screen accept the defaults, and click the Next button.
+6. Upon completion of the import, click the Activate Later button.
+7. To activate the OmniScripts, from the OmniScripts Page in the OmniStudio app, select the travel/g2Process link, then click on the G2 Process (Version 1) link.
+
+	![Omniscript Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/OmniScripts%20-%20Travel%3Ag2Process.png)
+9. Click the Activate Version button.
+10. Click the Done button and close the subtab.
+11. Repeat steps 1-3 for the TravelRequest and the SSOForeignTravel OmniScripts.
+### Import the FlexCards
+1. Select OmniStudio FlexCards from the OmniStudio app menu.
+2. Select the Import button and upload the OmniStudio FlexCard Multipack.json.
+![Import Flexcards Screen](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/FlexCards%20-%20Import.png)
+3. Click Next.
+4. Accept the Defaults, click Next.
+5. Click Next.
+6. Click the Activate Now button.
+7. Verify that both FlexCards are selected and click Next.
+### Add the FlexCards to the User Interface
+1. Select the Travel Request app from the App Launcher and select Home from the Travel Request app’s menu. 
+2. Click the gear icon in the upper right corner of the screen and select Edit Page.
+![Edit Page from Gear Icon](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Gear%20Icon%20-%20Edit%20Page.png)
+3. Drag the FlexCard component from the left side of the screen and drop it above the Launchpad component in the top right corner of the screen, as shown.
+![Home Page Edit, FlexCard Configuration](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Home%20Page%20-%20Add%20FlexCard.png)
+4. In the Flexcard Name select LaunchOSAppInADay. Leave the Record Id as is.
+5. Click Save.
+6. Click on the Pages Dropdown and select the Travel Request Record Page.
+![Record Page Selection Menu](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Home%20Page%20-%20Page%20Selection%20Menu.png)
+7. Drag the FlexCard Component onto the page just above the Activity Component.
+![Travel Page Edit, FlexCard Configuration](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Add%20FlexCard.png)
+8. In the FlexCard Name select the LaunchOSAppInADayForeign.
+9. Under the Set Component Visibility, click Add Filter.
+10. Using the Filter Type - Record Field, Select Status in the Field input box.
+11. Select Fully Approved in the Value input box. 
+	- Note: This makes the FlexCard conditionally visible. It will only appear on the record page when the Status of the Travel Request record has been set to Fully Approved, otherwise it will not be accessible to the user. This ensures that the form is available to be completed at the appropriate stage of the travel process.
+
+	![FlexCard Filter Panel](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Filter%20FlexCard.png)
+
+12. Click Done.
+
+13. Click Save.
+
+14. Click on the reverse arrow in the top left corner to return to the Travel Request application.
+![Travel Record, Back Button](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Back%20Button.png)
+15. Test both FlexCards (on the Home page and the Travel Request record page) by selecting them and completing the guided steps.
+
+**SET UP IS COMPLETE. ENJOY EXPLORING THE TRAVEL REQUEST APPLICATION.**
