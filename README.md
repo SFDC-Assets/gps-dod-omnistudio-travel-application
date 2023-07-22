@@ -202,7 +202,7 @@
 ![Travel Record, Back Button](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Back%20Button.png)
 15. Test both FlexCards (on the Home page and the Travel Request record page) by selecting them and completing the guided steps.
 
-**✅ SET UP IS COMPLETE. ENJOY EXPLORING THE TRAVEL REQUEST APPLICATION.**
+	**✅ SET UP IS COMPLETE. ENJOY EXPLORING THE TRAVEL REQUEST APPLICATION.**
 # 4. Application Use
 ---
 1. From the perspective of the Traveler, clicking the Foreign Travel Request button on the Travel Request app home page creates a new travel request record that is automatically entered into an approval process. Upon completing the steps in the wizard, the user is redirected to the new Travel Request record.
