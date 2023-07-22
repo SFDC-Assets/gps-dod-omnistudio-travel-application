@@ -149,7 +149,8 @@
 ### Download the OmniStudio Files
 1. From the GitHub repository, access the json folder and download the “Omni Processes Multipack.json” and “OmniStudio FlexCard Multipack.json” files to your computer.
 ![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/GitHub%20-%20Download%20JSON%20Files%20-%201.png)
-![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/GitHub%20-%20Download%20JSON%20Files%20-%202.png)
+
+	![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/GitHub%20-%20Download%20JSON%20Files%20-%202.png)
 ### Import the OmniScripts
 1. Select OmniStudio from the Application Launcher.
 ![App Launcher Omnistudio Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/App%20Launcher%20-%20Omnistudio%20App.png)
@@ -211,7 +212,8 @@
 ![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Approval%20Process%20Modal.png)
 3. Once approved, the Post Foreign Travel Questionnaire button is conditionally visible, enabling the Traveler to click on it and fill out a post-trip travel form.
 ![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Post%20Foreign%20Travel%20Questionnaire%20Button.png)
-![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Post%20Foreign%20Travel%20Questionnaire%20Modal.png)
+
+	![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Post%20Foreign%20Travel%20Questionnaire%20Modal.png)
 4. Completion of the form updates the Foreign Travel After Action section of the Travel Request record.
 ![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Foreign%20Travel%20After%20Action%20Section.png)
 # 5. Maintainer
