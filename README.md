@@ -204,13 +204,14 @@
 1. From the perspective of the Traveler, clicking the Foreign Travel Request button on the Travel Request app home page creates a new travel request record that is automatically entered into an approval process. Upon completing the steps in the wizard, the user is redirected to the new Travel Request record.
 ![Foreign Travel Request Wizard](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Home%20Page%20-%20Foriegn%20Travel%20Request.png)
 2. From the perspective of the Manager, the Travel Request record details can be reviewed and the request approved or rejected from the Approval History list on the Related Records tab.
-![]()
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Approval%20Process%20Modal.png)
 3. Once approved, the Post Foreign Travel Questionnaire button is conditionally visible, enabling the Traveler to click on it and fill out a post-trip travel form.
-![]()
-![]()
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Post%20Foreign%20Travel%20Questionnaire%20Button.png)
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Post%20Foreign%20Travel%20Questionnaire%20Modal.png)
 4. Completion of the form updates the Foreign Travel After Action section of the Travel Request record.
-![]()
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Foreign%20Travel%20After%20Action%20Section.png)
 # Maintainer
 - David Nava, Lead Solution Engineer at Salesforce, dnava@salesforce.com
+- Please reach out to me via email with any suggestions on improving this repo. Thank you!
 # Current Version
 - 1.2
