@@ -64,14 +64,17 @@
 10. Click the Install for All Users radio button and then click the Install button. 
 ![Clone This User Install Wizard](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/AppExchange%20Clone%20This%20User%20Install%20Modal.png)
 11. You may receive a message saying that the application is taking too long to install. This is normal. Once the installation is complete you will receive an email saying that it has been installed successfully. 
-12. Once installed, access the Salesforce org, click on the App Launcher, and type “Clone” in the search box. Select “Clone this User” to open the application.
+12. Once installed, access the Salesforce org, and refresh the page. Click on the App Launcher, and type “Clone” in the search box. Select “Clone this User” to open the application.
 
 	![App Launcher App Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/App%20Launcher%20-%20Clone%20This%20User.png)
 
 13. Type your first name into the search box and then select your user to be cloned.
 ![Clone This User, User Selection](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Clone%20This%20User%20-%20User%20Selection.png)
-14. Enter the new user information and click the save button. It’s recommended to use your email address for the new user so that you’ll receive the user verification email. Remember that all usernames must be unique. As an example, you can use the following nomenclature for the cloned user’s username: <firstname>.<last name>.@travelrequestapp.org.
-![Clone This User, User Creation](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Clone%20This%20User%20-%20New%20User.png)
+14. Enter the new user information, leave the default checkbox selections as they are, and click the Save button. 
+	- It’s recommended to use your email address for the new user so that you’ll receive the user verification email. Remember that all usernames must be unique. 
+	- As an example, you can use the following nomenclature for the cloned user’s username: <firstname>.<last name>.@travelrequestapp.
+
+	![Clone This User, User Creation](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Clone%20This%20User%20-%20New%20User.png)
 ## Set Up the Manager For the Original User (Duration: 3 minutes)
 - For the approval process to work properly, you must assign the new user as your manager. Complete the following steps:
 1. Click the avatar in the upper right corner of the screen (it’s an image of a Salesforce mascot) and select the Settings link.
@@ -88,10 +91,10 @@
 - The following unlocked package includes two separate travel apps, “Travel Request” and “Travel App”. Please feel free to explore both apps. This Read Me file focuses on configuring the Travel Request app ONLY, as the Travel App does not require any configuration. The Travel App is based on the following Trailhead trail (link).
 - To review the differences between the two apps, please refer to the table below:
 
-**Apps** | **OmniStudio** | **Approval Processes** | **Flow Automation**
---- | --- | --- | ---
-**Travel Request** | Yes | Yes | Yes
-**Travel App** | No | Yes | Yes
+	**Apps** | **OmniStudio** | **Approval Processes** | **Flow Automation**
+	--- | --- | --- | ---
+	**Travel Request** | Yes | Yes | Yes
+	**Travel App** | No | Yes | Yes
 - Complete the following steps to install the metadata (i.e. objects, fields, etc.) for the Travel Request app in your Salesforce instance.
 1. Open a new browser window, paste the following URL, and select Enter.
 	- https://login.salesforce.com/packaging/installPackage.apexp?p0=04tHr000001VfFIIA0
@@ -101,3 +104,40 @@
 4. The package will begin installing, which should take approximately 1-3 minutes. You will receive an on-screen confirmation and an email when the package has successfully installed. 
 5. If installation is taking longer, perhaps due to limited bandwidth, your on-screen notification will reflect this. This is normal.
 ![Taking Long to Install Modal](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Install%20Travel%20Apps%20-%20Long%20Installation%20Screen.png)
+## Activate Flows (Duration: 2 minutes)
+- The process automations (Flows) are deployed to your org in an inactive state and must be activated for use. 
+1. Click on the gear icon in the upper right corner of the screen and select Setup.
+	- If you already have an existing Setup window open, close it and open a new one. When new metadata is added to the org, as in the previous step, it may not be visible in windows that were opened before its installation.
+3. Type “flow” in the Quick Find search box and select “Flows” under Process Automation.
+4. Scroll down to the “Out of State Travel Flag” flow, select the dropdown on the right side, and click on View Details and Versions.
+![Flow Edit Menu](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Flow%20-%20View%20Details%20and%20Versions%20Dropdown.png)
+5. In the Flow Versions list, click the “Activate” link.
+![Flow Activate Menu](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Flow%20-%20Activate%20Out%20of%20State%20Travel%20Flag%20Flow.png)
+6. Repeat steps 3 and 4 for the “Mission Approved” Flow, as needed.
+## Configure Path Settings (Duration: 1 minute)
+1. Click on the gear icon in the upper right corner of the screen and select Setup.
+2. Enter “Path” into the Quick Find search bar and select “Path Settings”.
+3. Click the green Enable button. 
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Path%20Settings%20-%20Enable.png)
+4. The workflow path for Travel Request records is now active.
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Path%20Settings%20-%20Active.png)
+## Import Travel Request Data (Duration: 5 minutes)
+- Upload sample data that can be viewed in list views, reports, dashboards, and OmniStudio components by completing the following steps. The Flex Cards will not work properly without data.
+### Download the Data File
+1. From the GitHub repository, access the data folder and download the C5ISR-ImportData.csv file to your computer.
+![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/GitHub%20-%20Download%20CSV%20File.png)
+### Import the Data
+1. Click on the gear icon in the upper right corner of the screen and select Setup.
+2. Type “import” in the Quick Find search box and select “Data Import Wizard”.
+3. Click the green Launch Wizard button at the bottom of the screen.
+4. Click the Custom Objects tab, scroll down the list, and select Travel Requests.
+	- It may take a few minutes for new custom objects to appear in the Data Import Wizard after they are added to the org, as they were in a previous step. If you don’t see the Travel Request object available in the list, wait a few minutes, refresh your screen, and search again. Objects may not be listed in alphabetical order.
+5. In the middle section, select Add New Records. 
+6. In the right section, upload the C5ISR-ImportData.csv file by dragging and dropping it into the upload area, or by clicking the CSV button and following the screen prompts.
+![Choose Data Screen](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Data%20Import%20Wizard%20-%20Choose%20Data%20Screen.png)
+7. Click the Next button.
+8. The metadata from the spreadsheet has already been mapped to the metadata in the Salesforce org, as shown below. Click the Next button.
+![Edit Mapping Screen](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Data%20Import%20Wizard%20-%20Edit%20Mapping%20Screen.png)
+10. Click the Start Import button.
+![Start Import Screen](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Data%20Import%20Wizard%20-%20Start%20Import%20Screen.png)
+11. Click OK on the confirmation screen. You’ll be redirected to the Bulk Data Load Jobs page where you can monitor the import progress. You’ll receive an email when the job is complete.
