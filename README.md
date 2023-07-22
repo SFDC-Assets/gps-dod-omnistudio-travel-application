@@ -1,11 +1,14 @@
 # Travel Request Application
 ## 1. Description
+---
 - This repository contains two travel applications (“Travel Request” and “Travel App”) with related objects and user interface components, approval processes for both apps, sample data for the Travel Request app, and JSON files for the Travel Request app’s related OmniStudio OmniScripts and FlexCards. 
 - The main difference between the Travel Request app and the Travel app is that the latter does not feature OmniStudio components, while the former does.
 - Both apps were created using a no-code approach and illustrate how Salesforce's declarative tools enable the rapid development of tailored, fully-interactive applications with process automation, analytics, and guided user experiences.
 ## 2. Disclaimer
+---
 - Installation and use of this package is at your own risk. Please consult your organization’s rules and regulations before proceeding.
 ## 3. Installation & Setup
+---
 - The following steps need to be completed in the order listed, to avoid conflicts. 
 - Installation takes approximately an hour to complete, depending on your proficiency with Salesforce.
 ### Set Up OmniStudio Trial Org (Duration: 10 minutes)
@@ -200,7 +203,8 @@
 15. Test both FlexCards (on the Home page and the Travel Request record page) by selecting them and completing the guided steps.
 
 **✅ SET UP IS COMPLETE. ENJOY EXPLORING THE TRAVEL REQUEST APPLICATION.**
-# Application Use
+# 4. Application Use
+---
 1. From the perspective of the Traveler, clicking the Foreign Travel Request button on the Travel Request app home page creates a new travel request record that is automatically entered into an approval process. Upon completing the steps in the wizard, the user is redirected to the new Travel Request record.
 ![Foreign Travel Request Wizard](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Home%20Page%20-%20Foriegn%20Travel%20Request.png)
 2. From the perspective of the Manager, the Travel Request record details can be reviewed and the request approved or rejected from the Approval History list on the Related Records tab.
@@ -210,8 +214,10 @@
 ![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Post%20Foreign%20Travel%20Questionnaire%20Modal.png)
 4. Completion of the form updates the Foreign Travel After Action section of the Travel Request record.
 ![](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Foreign%20Travel%20After%20Action%20Section.png)
-# Maintainer
+# 5. Maintainer
+---
 - David Nava, Lead Solution Engineer at Salesforce, dnava@salesforce.com
 - Please reach out to me via email with any suggestions on improving this repo. Thank you!
-# Current Version
+# 6. Current Version
+---
 - 1.2
