@@ -180,13 +180,13 @@
 2. Click the gear icon in the upper right corner of the screen and select Edit Page.
 ![Edit Page from Gear Icon](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Gear%20Icon%20-%20Edit%20Page.png)
 3. Drag the FlexCard component from the left side of the screen and drop it above the Launchpad component in the top right corner of the screen, as shown.
-![Home Page Edit, FlexCard Configuration](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Home%20Page%20-%20Add%20FlexCard.png)
+![Home Page Edit, FlexCard Configuration]()
 4. In the Flexcard Name select LaunchOSAppInADay. Leave the Record Id as is.
 5. Click Save.
 6. Click on the Pages Dropdown and select the Travel Request Record Page.
 ![Record Page Selection Menu](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Home%20Page%20-%20Page%20Selection%20Menu.png)
 7. Drag the FlexCard Component onto the page just above the Activity Component.
-![Travel Page Edit, FlexCard Configuration](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Add%20FlexCard.png)
+![Travel Page Edit, FlexCard Configuration]()
 8. In the FlexCard Name select the LaunchOSAppInADayForeign.
 9. Under the Set Component Visibility, click Add Filter.
 10. Using the Filter Type - Record Field, Select Status in the Field input box.
