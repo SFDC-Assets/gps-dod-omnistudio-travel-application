@@ -180,7 +180,7 @@
 2. Click the gear icon in the upper right corner of the screen and select Edit Page.
 ![Edit Page from Gear Icon](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Gear%20Icon%20-%20Edit%20Page.png)
 3. Drag the FlexCard component from the left side of the screen and drop it above the Launchpad component in the top right corner of the screen, as shown.
-![Home Page Edit, FlexCard Configuration]()
+![Home Page Edit, FlexCard Configuration](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Home%20Page%20-%20Add%20FlexCard.png)
 4. In the Flexcard Name select LaunchOSAppInADay. Leave the Record Id as is.
 5. Click Save.
 6. Click on the Pages Dropdown and select the Travel Request Record Page.
