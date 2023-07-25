@@ -116,7 +116,7 @@
 ![Flow Edit Menu](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Flow%20-%20View%20Details%20and%20Versions%20Dropdown.png)
 5. In the Flow Versions list, click the “Activate” link.
 ![Flow Activate Menu](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Flow%20-%20Activate%20Out%20of%20State%20Travel%20Flag%20Flow.png)
-6. Repeat steps 3 and 4 for the “Mission Approved” Flow, as needed.
+6. Repeat steps 3 and 4 for the “Mission Approval” Flow, as needed.
 ## Configure Path Settings (Duration: 1 minute)
 1. Click on the gear icon in the upper right corner of the screen and select Setup.
 2. Enter “Path” into the Quick Find search bar and select “Path Settings”.
@@ -201,7 +201,6 @@
 
 14. Click on the reverse arrow in the top left corner to return to the Travel Request application.
 ![Travel Record, Back Button](https://github.com/SFDC-Assets/gps-dod-omnistudio-travel-application/blob/main/images/Travel%20Request%20Record%20Page%20-%20Back%20Button.png)
-15. Test both FlexCards (on the Home page and the Travel Request record page) by selecting them and completing the guided steps.
 
 	**✅ SET UP IS COMPLETE. ENJOY EXPLORING THE TRAVEL REQUEST APPLICATION.**
 # 4. Application Use
