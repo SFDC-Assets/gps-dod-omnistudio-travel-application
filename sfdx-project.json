@@ -1,0 +1,30 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Travel App",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.0.0",
+      "versionDescription": "This package contains the metadata for travel approval and travel request app approval processes."
+    },
+    {
+      "path": "force-app",
+      "package": "Travel Apps",
+      "versionName": "ver 1.2",
+      "versionNumber": "1.2.0.0",
+      "default": false,
+      "versionDescription": "This package contains the metadata for the travel approval and travel request apps."
+    }
+  ],
+  "name": "Approval Process",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "Travel App": "0HoHr000000oLkPKAU",
+    "Travel App@1.0.0": "04tHr000001VeyhIAC",
+    "Travel Apps": "0HoHr000000oLkUKAU",
+    "Travel Apps@1.2.0": "04tHr000001VfFIIA0"
+  }
+}

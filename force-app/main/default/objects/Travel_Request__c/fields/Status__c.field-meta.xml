@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Awaiting Mission Approval</fullName>
+                <default>false</default>
+                <label>Awaiting Mission Approval</label>
+            </value>
+            <value>
+                <fullName>Mission Approved</fullName>
+                <default>false</default>
+                <label>Mission Approved</label>
+            </value>
+            <value>
+                <fullName>SSO Approval</fullName>
+                <default>false</default>
+                <label>SSO Approval</label>
+            </value>
+            <value>
+                <fullName>Fully Approved</fullName>
+                <default>false</default>
+                <label>Fully Approved</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Questionnaire Complete</fullName>
+                <default>false</default>
+                <label>Questionnaire Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
