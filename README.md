@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Travel Request Application
 ## 1. Description
 ---
